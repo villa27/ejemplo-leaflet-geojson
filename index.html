@@ -37,6 +37,15 @@
         }
       }).addTo(map);
 	    
+	    L.geoJson(rios, {
+        style: function (feature) {
+	  return {
+            fillColor: '#0000ff', 
+            color: '#FFFFFF'
+          };
+        }
+      }).addTo(map);
+	    
 	    
       function onEachFeature(feature, layer) {
 	var popupContent = "";
