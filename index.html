@@ -40,7 +40,7 @@
       function onEachFeature(feature, layer) {
 	var popupContent = "";
 
-	if (feature.properties && feature.properties.scientif_1.verbatimLo) {
+	if (feature.properties && feature.properties.scientif_1 && feature.properties.verbatimLo) {
 	  popupContent += feature.properties.scientif_1.verbatimLo;
 	}
 
