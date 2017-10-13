@@ -52,14 +52,14 @@
         style: function (feature) {
 	  return {
             fillColor: '#0000ff', 
-            color: '#ffffff'
+            color: 'black'
           };
         },
         
 	pointToLayer: function (feature, latlng) {
 	  return L.circleMarker(latlng, {
 	    radius: 3,
-	    fillColor: "black",
+	    fillColor: "#0000ff",
 	    color: "#000",
 	    weight: 1,
 	    opacity: 1,
